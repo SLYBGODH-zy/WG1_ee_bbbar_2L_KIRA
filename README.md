@@ -30,12 +30,6 @@ Each kira_run directory contains:
 - master_integrals configuration
 - Shell scripts for running KIRA reduction
 
-To run KIRA reduction:
-```bash
-cd 2L_Box_A_G/kira_run/
-bash run_kira.sh
-```
-
 ## Notes
 
 - These results correspond to three successfully completed box diagram calculations
