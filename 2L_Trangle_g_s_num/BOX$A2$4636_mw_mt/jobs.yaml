@@ -1,0 +1,11 @@
+jobs:
+ - reduce_sectors:
+    reduce:
+     - {sectors: [b101001011], r: 9, s: 2} 
+    select_integrals:
+     select_mandatory_recursively:
+      - {sectors: [b101001011], r: 9, s: 2} 
+    integral_ordering: 2
+    run_initiate: true
+    run_triangular: true
+    run_back_substitution: true
